@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestForLoadMore</string>
+    <string name="pull_to_loadmore">Pull to loadmore</string>
+    <string name="release_to_loadmore">Release to loadmore</string>
+    <string name="begin_loading">loading</string>
+    <string name="pull_to_refresh_completed">LoadCompleted</string>
+</resources>

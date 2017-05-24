@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:color/holo_purple"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_foot_view_prepare_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/item_foot_view_prepare_container_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ptr_rotate_arrow"
+            />
+
+        <TextView
+            android:id="@+id/item_foot_view_prepare_container_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pull_to_loadmore" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_foot_view_loading_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/begin_loading"
+            android:textColor="@color/colorPrimary" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            style="?android:attr/progressBarStyleSmall"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_foot_view_completed_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/item_foot_view_completed_container_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pull_to_loadmore" />
+    </LinearLayout>
+</RelativeLayout>
